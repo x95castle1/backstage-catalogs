@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: dynatrace-test
+  description: Example Dynatrace Backstage Plugin Test
+
+  annotations:
+    dynatrace.com/dynatrace-entity-id: CLOUD_APPLICATION-FF000E4C9629C6F7
+    dynatrace.com/synthetics-ids: xxxxx
+spec:
+  type: website
+  owner: jeremy@jeremy.com
+  lifecycle: experimental
