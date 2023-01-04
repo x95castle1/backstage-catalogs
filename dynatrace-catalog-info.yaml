@@ -4,7 +4,7 @@ metadata:
   name: dynatrace-test
   description: Example Dynatrace Backstage Plugin Test
   annotations:
-    dynatrace.com/dynatrace-entity-id: CLOUD_APPLICATION-EEDD5AECF1B156D2
+    dynatrace.com/dynatrace-entity-id: CLOUD_APPLICATION-1A188DD8B9E57BFC
     dynatrace.com/synthetics-ids: HTTP_CHECK-3C1247549C00041B
 spec:
   type: service
