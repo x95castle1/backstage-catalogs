@@ -7,6 +7,6 @@ metadata:
     dynatrace.com/dynatrace-entity-id: CLOUD_APPLICATION-FF000E4C9629C6F7
     dynatrace.com/synthetics-ids: HTTP_CHECK-3C1247549C00041B
 spec:
-  type: website
+  type: service
   owner: jeremy@jeremy.com
   lifecycle: experimental
