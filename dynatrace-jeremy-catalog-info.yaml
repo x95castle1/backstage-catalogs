@@ -1,1 +1,11 @@
-CLOUD_APPLICATION-419C9B37E4627178
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: jeremy-bad-pod-2
+  description: Kubernetes Pod in Jeremy Namespace in Pending State. Only owner x95castle1@yahoo.com should have access to see Dynatrace Info.
+  annotations:
+    dynatrace.com/dynatrace-entity-id: CLOUD_APPLICATION-419C9B37E4627178
+spec:
+  type: service
+  owner: x95castle1@yahoo.com
+  lifecycle: experimental
