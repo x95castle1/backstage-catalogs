@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: dynatrace-webhook
+  description: Catalog of the Dynatrace Webhook 
+  annotations:
+    dynatrace.com/dynatrace-entity-id: CLOUD_APPLICATION-BA42D738210D34C6
+spec:
+  type: service
+  owner: acvwilson@gmail.com
+  lifecycle: experimental
