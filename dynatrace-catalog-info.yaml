@@ -1,10 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: fail-please
+  name: asa-bad-pod-2
   description: Kubernetes Pod in Default Namesapce in Pending State. Only owner acvwilson@gmail.com should have access to Dynatrace info.
-  annotations:
-    dynatrace.com/dynatrace-entity-id: CLOUD_APPLICATION-1A188DD8B9E57BFC
 spec:
   type: service
   owner: acvwilson@gmail.com
