@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: ro-dotnet-from-dev-after-bump
+  name: ro-dotnet-from-dev-after-bump-dev
   description: ASP.NET Core 'hello world' skeleton web application and templated pipeline with a gated deploy workflow which deploys to Kubernetes.
   annotations:
     github.com/project-slug: mckesson/ro-dotnet-from-dev-after-bump
