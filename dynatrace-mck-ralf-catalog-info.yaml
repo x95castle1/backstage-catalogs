@@ -1,11 +1,11 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: ro-vmware-2-dev
+  name: ro-vmware-via-vra
   description: ASP.NET Core 'hello world' skeleton web application and templated pipeline with a gated deploy workflow which deploys to Kubernetes.
   annotations:
-    github.com/project-slug: mckesson/ro-vmware-2
-    backstage.io/kubernetes-id: ro-vmware-2
+    github.com/project-slug: mckesson/ro-vmware-via-vra
+    backstage.io/kubernetes-id: ro-vmware-via-vra
 spec:
   type: service
   lifecycle: experimental
