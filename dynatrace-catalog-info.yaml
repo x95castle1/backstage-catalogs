@@ -5,5 +5,5 @@ metadata:
   description: Kubernetes Pod in Default Namesapce in Pending State. Only owner acvwilson@gmail.com should have access to Dynatrace info.
 spec:
   type: service
-  owner: acvwilson@gmail.com
+  owner: rabeyta
   lifecycle: experimental
